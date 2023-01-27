@@ -14,7 +14,7 @@ def main():
         else:
             print("The coin is... Tails")
     else:
-        print("Oops, dropped the coin. Let's try again.")
+        print("Oops, dropped the coin.")
     #print whether or not user was correct 
     if (choice == "heads" and randchoice == 1):
             print("You did it!")
